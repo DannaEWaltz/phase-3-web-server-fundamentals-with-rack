@@ -1,0 +1,156 @@
+repo_name: DannaEWaltz/phase-3-web-server-fundamentals-with-rack
+report_id: c059b694978e7b299e9a4f551c10be70
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-02T05:58:45+00:00'
+requested_by: ihollander
+provider: github
+branch: main
+detected_tools_count: 8
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack/blob/main/.github/workflows/canvas-sync-html.yml
+  detection_source: ".github/workflows/canvas-sync-html.yml"
+  last_updated_by: ihollander
+  last_updated_on: 2021-07-19 17:13:17.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-07-19 17:13:17.000000000 Z
+- name: pry
+  description: An IRB alternative and runtime developer console
+  package_url: https://rubygems.org/pry
+  version: 0.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-07-19 17:13:17.000000000 Z
+- name: rack
+  description: Rack provides a minimal, modular and adaptable interface for developing
+    web applications in Ruby
+  package_url: https://rubygems.org/rack
+  version: 2.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18839/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-07-19 17:13:17.000000000 Z
+  vulnerabilities:
+  - name: Possible shell escape sequence injection vulnerability in Rack
+    cve_id: CVE-2022-30123
+    cve_url: https://github.com/advisories/GHSA-wq4h-7r42-5hrr
+    detected_date: May 28
+    severity: critical
+    first_patched: 2.2.3.1
+  - name: Rack has possible DoS Vulnerability in Multipart MIME parsing
+    cve_id: CVE-2023-27530
+    cve_url: https://github.com/advisories/GHSA-3h57-hmj3-gj3p
+    detected_date: Mar 9
+    severity: high
+    first_patched: 2.2.6.3
+  - name: Denial of service via header parsing in Rack
+    cve_id: CVE-2022-44570
+    cve_url: https://github.com/advisories/GHSA-65f5-mfpf-vfhj
+    detected_date: Jan 19
+    severity: high
+    first_patched: 2.2.6.2
+  - name: Denial of Service Vulnerability in Rack Multipart Parsing
+    cve_id: CVE-2022-30122
+    cve_url: https://github.com/advisories/GHSA-hxqx-xwvh-44m2
+    detected_date: May 28
+    severity: high
+    first_patched: 2.2.3.1
+  - name: Denial of Service Vulnerability in Rack Content-Disposition parsing
+    cve_id: CVE-2022-44571
+    cve_url: https://github.com/advisories/GHSA-93pm-5p5f-3ghx
+    detected_date: Jan 19
+    severity: low
+    first_patched: 2.2.6.1
+  - name: Denial of service via multipart parsing in Rack
+    cve_id: CVE-2022-44572
+    cve_url: https://github.com/advisories/GHSA-rqv2-275x-2jq5
+    detected_date: Jan 19
+    severity: low
+    first_patched: 2.2.6.1
+  - name: Possible Denial of Service Vulnerability in Rack's header parsing
+    cve_id: CVE-2023-27539
+    cve_url: https://github.com/advisories/GHSA-c6qg-cjj8-47qp
+    detected_date: Mar 16
+    severity: low
+    first_patched: 2.2.6.4
+- name: rack-test
+  description: Rack::Test is a small, simple testing API for Rack apps
+  package_url: https://rubygems.org/rack-test
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18845/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-07-19 17:13:17.000000000 Z
+- name: webrick
+  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
+    server
+  package_url: https://rubygems.org/webrick
+  version: 1.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-11-18 16:14:05.000000000 Z
