@@ -2,7 +2,7 @@ repo_name: DannaEWaltz/phase-3-web-server-fundamentals-with-rack
 report_id: c059b694978e7b299e9a4f551c10be70
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-02T05:58:45+00:00'
+timestamp: '2024-02-29T19:50:21+00:00'
 requested_by: ihollander
 provider: github
 branch: main
@@ -125,6 +125,24 @@ tools:
     detected_date: Mar 16
     severity: low
     first_patched: 2.2.6.4
+  - name: Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)
+    cve_id: CVE-2024-25126
+    cve_url: https://github.com/advisories/GHSA-22f2-v57c-j9cx
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack Header Parsing leads to Possible Denial of Service Vulnerability
+    cve_id: CVE-2024-26146
+    cve_url: https://github.com/advisories/GHSA-54rr-7fvw-6x8f
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack has possible DoS Vulnerability with Range Header
+    cve_id: CVE-2024-26141
+    cve_url: https://github.com/advisories/GHSA-xj5v-6v4g-jfw6
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
 - name: rack-test
   description: Rack::Test is a small, simple testing API for Rack apps
   package_url: https://rubygems.org/rack-test
