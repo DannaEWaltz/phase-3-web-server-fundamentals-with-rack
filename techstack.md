@@ -26,7 +26,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [DannaEWaltz/phase-3-web-server-fundamentals-with-rack](https://github.com/DannaEWaltz/phase-3-web-server-fundamentals-with-rack)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|8<br/>Tools used|02/02/24 <br/>Report generated|
+|8<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -80,7 +80,7 @@ Full tech stack [here](/techstack.md)
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
 |[pry](https://rubygems.org/pry)|v0.14.1|07/19/21|ihollander |MIT|N/A|
-|[rack](https://rubygems.org/rack)|v2.2.3|07/19/21|ihollander |MIT|[CVE-2022-30123](https://github.com/advisories/GHSA-wq4h-7r42-5hrr) (Critical)<br/>[CVE-2023-27530](https://github.com/advisories/GHSA-3h57-hmj3-gj3p) (High)<br/>[CVE-2022-44570](https://github.com/advisories/GHSA-65f5-mfpf-vfhj) (High)<br/>[CVE-2022-30122](https://github.com/advisories/GHSA-hxqx-xwvh-44m2) (High)<br/>[CVE-2022-44571](https://github.com/advisories/GHSA-93pm-5p5f-3ghx) (Low)<br/>[CVE-2022-44572](https://github.com/advisories/GHSA-rqv2-275x-2jq5) (Low)<br/>[CVE-2023-27539](https://github.com/advisories/GHSA-c6qg-cjj8-47qp) (Low)|
+|[rack](https://rubygems.org/rack)|v2.2.3|07/19/21|ihollander |MIT|[CVE-2022-30123](https://github.com/advisories/GHSA-wq4h-7r42-5hrr) (Critical)<br/>[CVE-2023-27530](https://github.com/advisories/GHSA-3h57-hmj3-gj3p) (High)<br/>[CVE-2022-44570](https://github.com/advisories/GHSA-65f5-mfpf-vfhj) (High)<br/>[CVE-2022-30122](https://github.com/advisories/GHSA-hxqx-xwvh-44m2) (High)<br/>[CVE-2022-44571](https://github.com/advisories/GHSA-93pm-5p5f-3ghx) (Low)<br/>[CVE-2022-44572](https://github.com/advisories/GHSA-rqv2-275x-2jq5) (Low)<br/>[CVE-2023-27539](https://github.com/advisories/GHSA-c6qg-cjj8-47qp) (Low)<br/>[CVE-2024-25126](https://github.com/advisories/GHSA-22f2-v57c-j9cx) (Low)<br/>[CVE-2024-26146](https://github.com/advisories/GHSA-54rr-7fvw-6x8f) (Low)<br/>[CVE-2024-26141](https://github.com/advisories/GHSA-xj5v-6v4g-jfw6) (Low)|
 |[rack-test](https://rubygems.org/rack-test)|v1.1.0|07/19/21|ihollander |MIT|N/A|
 |[webrick](https://rubygems.org/webrick)|v1.7.0|11/18/21|ihollander |BSD-2-Clause|N/A|
 
